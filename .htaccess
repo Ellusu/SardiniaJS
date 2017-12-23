@@ -1,0 +1,3 @@
+RewriteEngine On 
+RewriteRule ^([a-z]+)/([^/]+)/([^/]+)\.html$ index.php?lang=$1&tipe=$2&search=$3
+RewriteRule ^([a-z]+)\.html$ index.php?lang=$1
